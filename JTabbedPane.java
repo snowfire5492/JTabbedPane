@@ -38,7 +38,6 @@ class TabbedPaneDemo {
     // Display the frame.  
     jfrm.setVisible(true);  
   }  
- 
   public static void main(String args[]) {  
     // Create the frame on the event dispatching thread.  
     SwingUtilities.invokeLater(new Runnable() {  
